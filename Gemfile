@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -13,6 +14,15 @@ group :development, :test do
   gem 'childprocess', '0.5.3'
   gem 'spring'
 end
+
+# Bootstrap gem
+gem 'bootstrap-sass', '~> 3.2.0'
+
+# Automatic vendor prefixes
+gem 'autoprefixer-rails'
+
+gem 'sprockets', '2.11.0'
+
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
