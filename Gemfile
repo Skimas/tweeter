@@ -17,11 +17,10 @@ end
 
 # Bootstrap gem
 gem 'bootstrap-sass', '~> 3.2.0'
-
 # Automatic vendor prefixes
 gem 'autoprefixer-rails'
-
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 
 group :test do
