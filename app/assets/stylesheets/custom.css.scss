@@ -41,3 +41,19 @@ aside {
   float: left;
   margin-right: 10px;
 }
+
+.users {
+  list-style: none;
+  margin: 0;
+  center {
+  text-align: center;
+  }
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid #cccccc;
+    &:last-child {
+      border-bottom: 1px solid #cccccc;
+    }
+  }
+}
